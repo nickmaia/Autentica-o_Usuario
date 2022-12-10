@@ -138,3 +138,8 @@ GitHub.sublime-settings
 
 settings.py
 admin.py
+manage.py
+
+db.sqlite3
+
+migrations

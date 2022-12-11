@@ -1,14 +1,15 @@
 from django.db import models
 from django.contrib.auth import get_user_model
 
-#done é para saber se a tarefa foi finalizada ou não
-#choices é a escolha
+# done é para saber se a tarefa foi finalizada ou não
+# choices é a escolha
+
 
 class Task(models.Model):
 
     STATUS = (
-        ('doing', 'Doing'),
-        ('done', 'Done'),
+        ("doing", "Doing"),
+        ("done", "Done"),
     )
 
     title = models.CharField(max_length=255)
@@ -17,7 +18,7 @@ class Task(models.Model):
         max_length=5,
         choices=STATUS,
     )
-    
+
     user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

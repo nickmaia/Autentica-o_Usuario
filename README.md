@@ -9,7 +9,7 @@ O AutenticaUsuarioTasks é um aplicativo Django que permite que cada usuário au
 - Visualização apenas das próprias tarefas e tarefas em conjunto
 - Interface fácil de usar
 
-#Utilização
+# Utilização
 Para utilizar o AutenticaUsuarioTasks, basta se cadastrar como um novo usuário e realizar a autenticação no aplicativo. Em seguida, você pode criar suas próprias tarefas pessoais e tarefas em conjunto com outros usuários do aplicativo. Apenas o dono da tarefa e os usuários que fazem parte da tarefa em conjunto têm acesso a elas.
 
 Você também pode editar ou excluir suas próprias tarefas, e visualizar apenas as suas tarefas e tarefas em conjunto.
